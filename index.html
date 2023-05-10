@@ -25,6 +25,12 @@
     }
 
     #block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 300;
         transform: translate(0px, 0px) rotateX(0deg) rotateZ(10deg);
         transition: 0.01s;
         border-radius: 15px;
@@ -59,10 +65,13 @@
     h3 {
         font-size: inherit;
     }
+    h4{
+        color: white;
+    }
 </style>
 
 <body>
-    <div id="block"></div>
+    <div id="block">By Mandzioha</div>
     <div class="Instruction">
         <div class="Instruction-Block" style="width: 90px !important">
             <h3>W = ↑</h3>
@@ -80,6 +89,7 @@
             <h3>R = Reset</h3>
         </div>
     </div>
+    
 </body>
 
 </html>
